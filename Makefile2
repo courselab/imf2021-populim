@@ -7,7 +7,7 @@ bypass.o: bypass.c
 
 
 fix.o: fix.S
-		as -32 $< -o $@
+	as -32 $< -o $@
 
 libcrack.so: bypass.o fix.o
 	gcc -m32 --shared $^ -o $@
@@ -18,7 +18,7 @@ clean:
 
 
 run:
-	./decode -k ABC -d crypt1.dat file1
+	LD_LIBRARY_PATH=. ./decode -k ABC -d crypt2.dat file2
 
 
 dist:
