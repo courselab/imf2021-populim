@@ -1,4 +1,4 @@
-Bruno Gazoni 7585037
-João Villaça 10724239
-Matheus Steigenberg Populim 10734710
-Rafael Ceneme 9898610
+Bruno Gazoni 7585037 bruno.gazoni@usp.br
+João Villaça 10724239 jvnvillaca@usp.br
+Matheus Steigenberg Populim 10734710 matheusspopulim@usp.br
+Rafael Ceneme 9898610 rafael.ceneme@usp.br
